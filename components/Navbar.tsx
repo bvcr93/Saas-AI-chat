@@ -1,15 +1,11 @@
-import React from "react";
+import MobileSidebar from "./mobile-sidebar";
 import { Button } from "./ui/button";
-import { Menu } from "lucide-react";
-
 export default function Navbar() {
   return (
     <div className="flex items-center p-4">
-      <Button variant="ghost" className="md:hidden" size="icon">
-        <Menu />
-      </Button>
+      <MobileSidebar/>
       <div className="flex w-full justify-end">
-        <Button>Dont login</Button>
+        <Button className={"cursor-not-allowed"}>Login</Button>
       </div>
     </div>
   );
