@@ -11,7 +11,7 @@ export default function HomePage() {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="maincol">
       <div className="mb-8 space-y-4">
         <h2 className="text-2xl md:text-4xl font-bold text-center">
           Explore the power of AI
