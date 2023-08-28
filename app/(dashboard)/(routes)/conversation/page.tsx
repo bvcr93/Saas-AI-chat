@@ -59,7 +59,7 @@ const ConversationPage = () => {
   };
 
   return (
-    <div className="maincol">
+    <div className="maincol ">
       <div className="px-4 lg:px-8">
         <div>
           <Form {...form}>
