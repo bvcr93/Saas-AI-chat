@@ -10,6 +10,13 @@ body,
 .maincol {
   @apply max-w-screen-xl mx-auto px-10;
 }
+.gradient-text {
+  background-image: linear-gradient(to right, #ff3366, #ff9900); /* Replace these colors with your desired gradient colors */
+  -webkit-background-clip: text; /* Webkit (Chrome, Safari) */
+  background-clip: text; /* Standard property */
+  color: transparent; /* Make the original text transparent */
+  display: inline-block; /* Ensures gradient is applied to the text */
+}
 
 @layer base {
   :root {

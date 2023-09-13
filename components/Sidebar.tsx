@@ -28,7 +28,7 @@ export default function Sidebar() {
   return (
     <div className="space-y-4 py-4 flex flex-col bg-white border-r h-screen  text-black">
       <div className="px-3 py-2 flex-1">
-        <Link href="/dashboard" className="flex items-center pl-3 mb-14">
+        <Link href="/" className="flex items-center pl-3 mb-14">
           <h1 className={cn("mb-4 text-2xl", montserrat.className)}>
             Ai Chatbot
           </h1>
