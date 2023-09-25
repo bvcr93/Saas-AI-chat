@@ -5,7 +5,7 @@ export default function Navbar() {
     <div className="flex items-center p-4 ">
       <MobileSidebar />
       <div className="flex w-full justify-end">
-        <Button className={"cursor-not-allowed"}>Demo</Button>
+        <Button variant='outline' className={"cursor-not-allowed"}>Demo</Button>
       </div>
     </div>
   );

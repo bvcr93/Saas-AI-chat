@@ -1,6 +1,4 @@
-import { Code, ImageIcon, MessageSquare, Music, VideoIcon } from "lucide-react";
-
-export const MAX_FREE_COUNTS = 5;
+import { MessageSquare, AccessibilityIcon } from "lucide-react";
 
 export const tools = [
   {
@@ -10,11 +8,16 @@ export const tools = [
     color: "text-violet-500",
     bgColor: "bg-violet-500/10",
   },
+];
+
+export const cardTools = [
   {
-    label: "Code Generation",
-    icon: Code,
-    color: "text-green-700",
-    bgColor: "bg-green-700/10",
-    href: "/code",
+    title: "Conversation",
+    description: "Generate text with GPT-3.",
+    icon: AccessibilityIcon,
+  },
+  {
+    title: "Creativity",
+    description: "The ability to create something new",
   },
 ];
