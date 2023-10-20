@@ -18,11 +18,6 @@ const routes = [
     href: "/conversation",
     color: "text-violet-500",
   },
-  {
-    label: "Settings",
-    icon: Settings,
-    href: "/settings",
-  },
 ];
 export default function Sidebar() {
   return (
